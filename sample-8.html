@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DOM与显示位置匹的右侧单侧固定</title>
+    <style>
+        .fl-l {
+            float: left;
+            margin-left: -100px; /* 元素浮动后与兄弟浮动元素的间距默认为0，所以发生换行的情况 */
+            width: 100px;
+            height: 100px;
+            background: #c2c
+        }
+        .auto-wrap {
+            float: left;
+            width: 100%;
+            background: #898
+        }
+        .auto {
+            margin-right: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div class="auto-wrap">
+        <div class="auto">
+            爱情是让人沉溺的海洋爱情是让人沉溺的海洋
+            爱情是让人沉溺的海洋爱情是让人沉溺的海洋
+            爱情是让人沉溺的海洋爱情是让人沉溺的海洋
+            爱情是让人沉溺的海洋爱情是让人沉溺的海洋
+            爱情是让人沉溺的海洋爱情是让人沉溺的海洋
+            爱情是让人沉溺的海洋爱情是让人沉溺的海洋
+            爱情是让人沉溺的海洋爱情是让人沉溺的海洋
+            爱情是让人沉溺的海洋爱情是让人沉溺的海洋
+        </div>
+    </div>
+    <div class="fl-l"></div>
+</body>
+</html>
